@@ -1,0 +1,23 @@
+[server]
+# Enable automatic reloading when files change
+fileWatcherType = "auto"
+runOnSave = true
+allowRunOnSave = true
+
+# Development mode settings
+headless = false
+enableCORS = false
+enableXsrfProtection = false
+
+[client]
+# Show error details in the browser
+showErrorDetails = true
+
+[runner]
+# Automatically rerun the app when the source code changes
+magicEnabled = true
+
+
+[browser]
+# Don't automatically open browser (useful for dev containers)
+gatherUsageStats = false
