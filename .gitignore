@@ -1,8 +1,6 @@
 .venv
 /archive
 .env
-pyproject.toml
 .python-version
-uv.lock
 Q1-2/__pycache__/main.cpython-312.pyc
 pattern_vs_llm_analysis.ipynb
