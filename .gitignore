@@ -1,3 +1,6 @@
 .venv
 /archive
 .env
+.python-version
+pyproject.toml
+uv.lock
