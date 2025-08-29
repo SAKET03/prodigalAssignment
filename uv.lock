@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.12"
 
 [[package]]
@@ -976,6 +976,7 @@ dependencies = [
     { name = "pathlib-mate" },
     { name = "plotly" },
     { name = "pydantic" },
+    { name = "python-dotenv" },
     { name = "streamlit" },
 ]
 
@@ -991,6 +992,7 @@ requires-dist = [
     { name = "pathlib-mate", specifier = ">=1.0.0" },
     { name = "plotly", specifier = ">=5.17.0" },
     { name = "pydantic", specifier = ">=2.11.7" },
+    { name = "python-dotenv", specifier = ">=1.1.1" },
     { name = "streamlit", specifier = ">=1.28.0" },
 ]
 
