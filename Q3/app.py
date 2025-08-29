@@ -10,7 +10,7 @@ from pathlib import Path
 
 def run_streamlit_app():
     """Run the Streamlit app with auto-reload enabled"""
-    app_path = Path(__file__).parent / "call_analysis_viz.py"
+    app_path = Path(__file__).parent / "main.py"
     subprocess.run(
         [
             sys.executable,
